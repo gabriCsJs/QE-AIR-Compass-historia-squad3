@@ -1,0 +1,6 @@
+Um dia na vida de um QA em produção
+
+Parte 1 - A Descoberta
+Parte 2 - A Investigação
+Parte 3 - A comunicação e correção
+Parte 4 - A Prevenção
