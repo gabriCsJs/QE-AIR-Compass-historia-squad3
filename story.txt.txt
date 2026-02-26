@@ -1,9 +1,6 @@
 Um dia na vida de um QA em produção
 
 Parte 1 - A Descoberta
-Era 09:34 da manhã quando o alerta apareceu no dashboard. Um erro intermitente estava impactando o cálculo de desconto no sistema de vendas. O log não era claro. O problema acontecia apenas quando um usuário aplicava cupom e parcelamento ao mesmo tempo. A princípio parecia raro, mas o raro em produção gera ônus devastador.
-
-
 Parte 2 - A Investigação
 Parte 3 - A comunicação e correção
 Parte 4 - A Prevenção
