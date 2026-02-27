@@ -113,5 +113,5 @@ O versionamento é uma ferramenta de organização e rastreabilidade, não apena
 
 ---
 
-###📎 Conclusão
+### 📎 Conclusão
 A atividade permitiu simular um fluxo de trabalho próximo ao ambiente profissional, reforçando práticas essenciais de colaboração em equipe e controle de versões.
