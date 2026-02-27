@@ -1,6 +1,16 @@
 Um dia na vida de um QA em produção
 
-Parte 1 - A Descoberta
-Parte 2 - A Investigação
-Parte 3 - A comunicação e correção
-Parte 4 - A Prevenção
+Parte 1 - A Descoberta 
+Era 09:34 da manhã quando o alerta apareceu no dashboard. Um erro intermitente estava impactando o cálculo de desconto no sistema de vendas. O log não era claro. O problema acontecia apenas quando um usuário aplicava cupom e parcelamento ao mesmo tempo. A princípio parecia raro, mas o raro em produção gera ônus devastador. 
+
+Parte 2 - A Investigação 
+Iniciei o rastreio simulando a massa de dados em staging, mas o erro se esquivava. Após analisar os traces do microserviço, identifiquei uma condição de corrida: o cálculo do desconto era sobrescrito pela taxa de juros do parcelamento em milissegundos. 
+
+Parte 3 - A comunicação e correção 
+Com a causa identificada, comuniquei rapidamente o time e abri um chamado crítico com evidências e impacto do erro. 
+O hotfix priorizou a sincronização do cálculo, eliminando a condição de corrida. Após validação em ambiente controlado e monitoramento em produção, o incidente foi estabilizado.
+
+Parte 4 - A Prevenção 
+Com o problema corrigido, o foco passou a ser a prevenção. O cenário que causou a falha foi incorporado à suíte de testes de regressão, garantindo validação automática em futuras releases. 
+Também foram adicionados logs mais detalhados e o caso foi documentado, tornando o comportamento rastreável e verificável. O time revisou os critérios de teste para incluir cenários combinados, reforçando a cobertura. 
+O incidente deixou de ser apenas uma falha e passou a ser uma melhoria no processo. Em QA, prevenir é tão essencial quanto corrigir.
