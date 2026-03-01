@@ -1,4 +1,4 @@
-# Fase 2 – Atividade em Squad
+# Fase 2 – Atividade - Squad 3
 ## Prática de Git, Branches e Merge (Simulação com Git Flow)
 
 ### 📌 Objetivo
